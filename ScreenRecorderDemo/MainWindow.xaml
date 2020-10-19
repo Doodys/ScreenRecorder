@@ -1,0 +1,17 @@
+﻿<Window x:Class="ScreenRecorderDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="268.689" Width="590.291" WindowStartupLocation="Manual">
+    <Grid>
+        <Button Content="Record" HorizontalAlignment="Left" Margin="24,24,0,0" VerticalAlignment="Top" Width="173" Height="62" FontSize="22" Click="Button_Click_1"/>
+        <Button Content="Stop" HorizontalAlignment="Left" Margin="24,118,0,0" VerticalAlignment="Top" Width="173" Height="62" FontSize="22" Click="Button_Click_2"/>
+        <Button Content="Choose folder" HorizontalAlignment="Left" Margin="370,24,0,0" VerticalAlignment="Top" Width="173" Height="62" FontSize="22" Click="Button_Click"/>
+        <Label x:Name="lblTime" Content="00:00:00" HorizontalAlignment="Left" Margin="467,192,-58,0" VerticalAlignment="Top" Height="36" Width="173" FontSize="22"/>
+        <ComboBox x:Name="screenCmbo" HorizontalAlignment="Left" Margin="370,158,0,0" VerticalAlignment="Top" Width="173"/>
+        <Label Content="Choose screen" HorizontalAlignment="Left" Margin="380,114,0,0" VerticalAlignment="Top" FontSize="22" Width="173"/>
+
+    </Grid>
+</Window>
